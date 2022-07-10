@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.sc202.partedelproyecto.controller;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author B1anq
+ */
+public class Partedelproyecto {
+
+    public static void main(String[] args) 
+    {
+        String Registropagos = JOptionPane.showInputDialog("Ingrese el pago correspondiente  ");
+        String IDfuncionario = JOptionPane.showInputDialog("Digite su ID de funcionario ");
+        String funcionario = JOptionPane.showInputDialog("Digite su nombre");
+        String NombreInst = JOptionPane.showInputDialog("Digite el nombre de la institucion");
+        System.out.println("el pago es de  " + Registropagos+ "de la institucion " + NombreInst);
+        System.out.println("El registro que se obtubo de pago es a nombre de" +funcionario + "con ID "+ IDfuncionario);
+        
+        
+        
+        
+    }
+}
